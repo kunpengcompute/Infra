@@ -1,8 +1,8 @@
-# BoostKit社区会议指南
+_# HPCKit社区会议指南
 
 ## 一、介绍
 
-BoostKit社区在社区会议平台提供参与会议、会议预定功能。
+HPCKit社区在社区会议平台提供参与会议、会议预定功能。
 
 ![1](assest/1.png)
 
@@ -34,7 +34,7 @@ BoostKit社区在社区会议平台提供参与会议、会议预定功能。
 
 ### 1.定会申请权限
 
-BoostKit社区SIG maintainer、committer拥有创建会议权限，您需要登录社区会议平台的个人中心将gitcode账号与华为账号绑定，绑定之后您就可以预定会议。
+HPCKit社区SIG maintainer、committer拥有创建会议权限，您需要登录社区会议平台的个人中心将gitcode账号与华为账号绑定，绑定之后您就可以预定会议。
 
 ![4](assest/4.png)
 
@@ -42,11 +42,11 @@ BoostKit社区SIG maintainer、committer拥有创建会议权限，您需要登�
 
 当您拥有定会权限时，界面如下图所示：
 
-![image-20260202103610746](.\assets\image-20260202103610746.png)
+![5](assest/5.png)
 
 ### 2.创建会议
 
-![image-20260202103646693](.\assets\image-20260202103646693.png)
+![6](assest/6.png)
 
 填写会议内容：
 
@@ -57,7 +57,7 @@ BoostKit社区SIG maintainer、committer拥有创建会议权限，您需要登�
 - WeLink会议：详细内容见：https://www.huaweicloud.com/product/welink-download.html
 - 会议内容：请输入会议的议题或者大概内容，详细的议题内容后续可以在etherpad里面填写。
 - 会议录制：开启此选项，会议会自动录制，会议结束后会自动保存在第三方会议平台中，一天之内会议回访会被同步上传至官网，在官网中显示已开启录制的视频与语音转文字结果。
-- 邮件地址：填写需要通知参加会议的核心人员和邮件列表，以“；”间隔。发送成功后可以在对应的邮件列表归档中查看此通知邮件，如果没有则存储拦截情况，请联系基础设施 [chenglang11@huawei.com](mailto:chenglang11@huawei.com)处理；如果联系不上，请联系infrastructure SIG maintainer或者在BoostKit/infrastructure仓提交issue。
+- 邮件地址：填写需要通知参加会议的核心人员和邮件列表，以“；”间隔。发送成功后可以在对应的邮件列表归档中查看此通知邮件，如果没有则存储拦截情况，请联系基础设施 [chenglang11@huawei.com](mailto:chenglang11@huawei.com)处理；如果联系不上，请联系infrastructure SIG maintainer或者在kunpengcompute/infra仓提交issue。
 
 创建的会议会在会议平台上进行公开。
 
@@ -67,24 +67,24 @@ BoostKit社区SIG maintainer、committer拥有创建会议权限，您需要登�
 
 1. 点击【我创建的会议】
 
-![image-20260202103946384](.\assets\image-20260202103946384.png)
+![7](assest/7.png)
 
 2. 点击【修改会议】
 
-![image-20260202104031950](.\assets\image-20260202104031950.png)
+![8](assest/8.png)
 
 - 注意：修改会议暂不支持修改邮件地址，修改会议后会通知邮件列表的用户
 
 ### 4.取消会议
 
-如果你的会议时间需要取消，你可以进行取消会议，请根据下面步骤进行操作：
+如果你的会议时间需要取消_，你可以进行取消会议，请根据下面步骤进行操作：
 
 - 限制：在会议过期或者在半个小时之内即将开始的会议，比如昨天的会议会无法删除；比如半个小时之内即将开始的会议无法删除，这是系统默认半个小时为会议准备时间，大家都准备参加会议，此时取消会议，会对用户造成一定的影响。
 
 1. 点击【我创建的会议】
 2. 点击【取消会议】并在弹窗中【确认取消】
 
-![image-20260202104143933](.\assets\image-20260202104143933.png)
+![9](assest/9.png)
 
 ### 5.会议回放
 
@@ -96,11 +96,11 @@ BoostKit社区SIG maintainer、committer拥有创建会议权限，您需要登�
 
 1.创建会议的时候显示“会议时间冲突，请调整会议时间”？
 
-> A: 这是因为会议时间已经存在会议，以你创建会议的起始和结束时间的半个小时内无会议来判断，如果您遇到该提示，请尝试更换一个会议时间，如果一直出现该提示，请联系 [@ZeesangPie](https://gitcode.com/ZeesangPie) | [chenglang11@huawei.com](mailto:chenglang11@huawei.com) 处理；如果联系不上，请联系infrastructure SIG maintainer或者在Boostkit/infrastructure仓提交issue。
+> A: 这是因为会议时间已经存在会议，以你创建会议的起始和结束时间的半个小时内无会议来判断，如果您遇到该提示，请尝试更换一个会议时间，如果一直出现该提示，请联系 [@ZeesangPie](https://gitcode.com/ZeesangPie) | [chenglang11@huawei.com](mailto:chenglang11@huawei.com) 处理；如果联系不上，请联系infrastructure SIG maintainer或者在kunpengcompute/infra仓提交issue。
 
 2.WeLink会议出现“云会议室资源正在召开另外一场会议”？
 
-> A: 可能是因为上一场的会议没有结束，或有人没有退出导致，请稍等再重试一下，如果长时间出现该提示，请联系 [@ZeesangPie](https://gitcode.com/ZeesangPie) | [chenglang11@huawei.com](mailto:chenglang11@huawei.com) 进行处理。如果联系不上，请联系infrastructure SIG maintainer或者在Boostkit/infrastructure仓提交issue。
+> A: 可能是因为上一场的会议没有结束，或有人没有退出导致，请稍等再重试一下，如果长时间出现该提示，请联系 [@ZeesangPie](https://gitcode.com/ZeesangPie) | [chenglang11@huawei.com](mailto:chenglang11@huawei.com) 进行处理。如果联系不上，请联系infrastructure SIG maintainer或者在kunpengcompute/infra仓提交issue。
 
 3.如何主动关闭会议？
 
